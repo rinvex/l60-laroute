@@ -1,3 +1,7 @@
+Change package name temporary to "rinvex/tmp-lord-laroute" to publish on packagist.
+This is temporary forked package until a new release published by author, fully supports Laravel v8+
+
+
 # Laroute
 
 [Laravel](http://laravel.com/) has some pretty sweet [helper functions](http://laravel.com/docs/helpers#urls) for generating urls/links and its auto-json-magic makes it building APIs super easy. It's my go-to choice for building single-page js apps, but routing can quickly become a bit of a pain.
