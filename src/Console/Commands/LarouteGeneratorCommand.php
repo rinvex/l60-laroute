@@ -2,14 +2,14 @@
 
 namespace Lord\Laroute\Console\Commands;
 
+use Illuminate\Console\Command;
+use Illuminate\Config\Repository as Config;
 use Lord\Laroute\Routes\Collection as Routes;
+use Symfony\Component\Console\Attribute\AsCommand;
+use Symfony\Component\Console\Input\InputOption;
 use Lord\Laroute\Generators\GeneratorInterface as Generator;
 
-use Illuminate\Config\Repository as Config;
-use Illuminate\Console\Command;
-
-use Symfony\Component\Console\Input\InputOption;
-
+#[AsCommand(name: 'laroute:generate')]
 class LarouteGeneratorCommand extends Command
 {
     /**
