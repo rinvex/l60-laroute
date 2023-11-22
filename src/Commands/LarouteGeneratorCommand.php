@@ -1,6 +1,6 @@
 <?php
 
-namespace Lord\Laroute\Console\Commands;
+namespace Lord\Laroute\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Config\Repository as Config;

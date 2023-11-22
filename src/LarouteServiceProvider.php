@@ -3,7 +3,7 @@
 namespace Lord\Laroute;
 
 use Illuminate\Support\ServiceProvider;
-use Lord\Laroute\Console\Commands\LarouteGeneratorCommand;
+use Lord\Laroute\Commands\LarouteGeneratorCommand;
 use Lord\Laroute\Routes\Collection as Routes;
 
 class LarouteServiceProvider extends ServiceProvider
